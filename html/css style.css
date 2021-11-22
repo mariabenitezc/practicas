@@ -1,0 +1,66 @@
+@charset "utf-8";
+#CABECERA {
+	height: 120px;
+	width: AUTO;
+	background-color: #521819;
+	color: #D9E9B2;
+	font-size: 36px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	display: flex;
+	align-items: center;
+	padding-left: 40px;
+}
+#NAVEGACION {
+	background-color: #D1E6A9;
+	height: 70px;
+	color: #174B33;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: auto;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+nav ul li{
+	display:inline-block;
+	text-decoration: none;
+}
+.PRINCIPAL {
+}
+.PIE {
+}
+#PIE {
+	background-color: #D1E6A9;
+	height: 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #174B33;
+	text-align: center;
+	float: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#PRINCIPAL {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	height: 60px;
+	padding-left: 40px;
+	padding-top: 20px;
+	color: #521819;
+	text-align: center;
+	font-weight: bold;
+}
+#PARRAFO1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-left: 45px;
+}
+a:visited{
+	color:#7ABC79;
+}
+a:link{
+	color:#174B33;
+}
+a:hover{
+	color:#3D0F10;
+}

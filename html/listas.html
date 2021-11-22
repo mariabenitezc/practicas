@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+	<style>
+		header{
+			width: auto;
+			height: 130px;
+			padding: 30px;
+			background-color:#C84A8D;
+			text-align:center;
+		}
+		nav{
+			width: auo;
+			height:70px;
+			background-color: #1F562E;
+		}
+		main{
+			padding: 20px;
+			background-color: #D4F5BD;
+		}
+		h1,h2,h3{
+			margin:20px 150px;
+		}
+		
+		h1{
+			background-color: #C84A8D;
+			font-size: 48px;
+			color: honeydew;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		h2{
+			color: #1F562E;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		h3,h5{
+			color: #056621;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		ol{
+			color: #0F2C02;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		ul{
+			color: #4B023B;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		dl{
+			color: #107733;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		}
+		footer{
+			backgorund-color: honeydew;
+			
+		}
+	</style>
+		
+</head>
+	
+<body>
+	<header>
+		<h1>Listas en HTML</h1>	
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Lista ordenada: Revision de errores cometidos en la redaccion</h2>
+			<ol style= "margin:0px 180px">
+				<li>Organizacion</li>
+				<li>Exactitud de transcripciones</li>
+				<li>Cuestiones gramaticales</li>
+				<li>Formatos</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista desordenada: Lista del super</h2>
+			<ul style= "margin:0px 180px">
+				<li> Pasta de dientes</li>
+				<li>Shampoo</li>
+				<li>Jabon de tocador</li>
+				<li>Sopas</li>
+				<li>Lata de frutas</li>
+				<li>Pollo</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista mixta: Geografica</h2>
+			<ul style="margin-left: 180px">
+				<li>Argentina</li>
+					<ul>
+					<li>Buenos Aires</li>
+					<li>Rio de la Plata</li>
+					<li>Belgrano</li>
+					</ul>
+				<li>Bolivia</li>
+				<li>Mexico
+						<ul>
+						<li>Aguascalientes</li>
+						<li>Baja California</li>
+						<li>Colima</li>
+						<li>Durango</li>
+						<li>Jalisco</li>
+						</ul>
+				</li>
+				<li>Italia</li>
+					<ul>
+						<li>Venecia</li>
+						<li>Florencia</li>
+						<li>Roma</li>
+					</ul>
+				<li>Grecia</li>
+			</ul>
+		</section>
+		<section style="background-color:honeydew;width: 500px; padding: 30px;margin-left: 50px">
+			<h2 style="text-align: center">Lista de descripcion</h2>
+			<dl style="margin-left: 10px">
+				<dt style= "font-weight:bold"> Usabilidad</dt>
+				<dd>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rem maxime, enim quidem accusantium aspernatur excepturi dolorem quam et illum.</dd>
+				<dt style= "font-weight:bold"> Accesibilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima iste, omnis commodi asperiores, animi, quam provident hic odit impedit earum eum doloribus excepturi possimus a.</dd>
+				<dt style= "font-weight:bold"> Servidor Web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta exercitationem, officia maiores neque facilis. Minus, odio, ullam. Repellendus labore aliquam dolorem repellat explicabo veritatis, alias voluptates dolor enim et? Facilis?</dd>
+				<dt style= "font-weight:bold"> Hosting</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat harum amet nostrum. Tenetur, ipsam, voluptates?</dd>
+				<dt style= "font-weight:bold"> Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorum, quisquam sint minima nihil, quaerat consectetur optio ad! Repellendus deleniti dicta, culpa hic unde quae.</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Uso de atributo <b>type</b> para definir el marcador de elemento de lista</h2>
+			<h3>Alfabetico: A,a</h3>
+			<ol type="a" style= "margin:0px 180px">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Romanos:I,i</h3>
+			<ol type="I" style= "margin:0px 180px">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Figura:circle, square, disc</h3>
+			<ul type="square" style= "margin:0px 180px">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ul>
+		</section>
+		<section style="background-color:honeydew;padding:20px;margin:50px">
+			<h2>Uso de propiedades de CSS para modificacion de vinetas</h2>
+			<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar vinetas</h3>
+			<ul style="list-style-type: armenian; margin:0px 180px">
+				<li>Cafe</li>
+				<li>Leche</li>
+				<li>Pan</li>
+				<li>Atun</li>
+				<li>Frijoles</li>
+			</ul>
+			<h3>Uso de la  propiedad list-style-image de css ppara cambiar la vineta por imagen personalizada</h3>
+			<ul style="list-style-image: url('../img/dom.png'); margin:0px 180px">
+				<li>Delfin</li>
+				<li>Morsa</li>
+				<li>Ballena</li>
+			</ul>
+			<h3>Eliminar vinetas de lista</h3>
+			<ul style="list-style-type: none; margin:0px 180px">
+				<li>Gato</li>
+				<li>Leon</li>
+				<li>Tigre</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+	<h5 style="text-align: center">Elaborado por Maria Fernanda Benitez Cede;o </h5>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@charset "utf-8";
+.flex-container{
+	display: flex;
+	background-color: darkseagreen;
+}
+.flex-container >div{
+	background-color: #CBE0BF;
+	margin: 10px;
+	padding: 20px;
+	width: 400px;
+}
+.flex-container2{
+	display: flex;
+	background-color: darkolivegreen;
+	flex-direction: row;
+}
+.flex-container2 >div, .flex-container3 div, .flex-container5 div, .flex-container6 div, .flex-container7 div, .flex-container8 div{
+	background-color: darkseagreen;
+	width: 500px;
+	margin: 20px;
+	text-align: center;
+}
+.flex-container3{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: darkslategrey;
+}
+.flex-container4{
+	display: flex;
+	flex-flow: row wrap;
+	background-color: mediumseagreen;
+}
+.flex-container4 div{
+	width: 100px;
+	background-color: darkseagreen;
+	margin: 20px;
+}
+.flex-container5{
+	display: flex;
+	background-color: darkgreen;
+	justify-content: center;
+}
+.flex-container6{
+	display: flex;
+	height: 600px;
+	flex-wrap: wrap;
+	background-color: darkcyan;
+	align-content: center;
+}
+.flex-container6 div, .flex-container7 div{
+	width: 100px;
+}
+.flex-container7{
+	display: flex;
+	height: 200px;
+	background-color: mediumseagreen;
+	align-items:center;
+}
+.flex-container8{
+	display: flex;
+	background-color: darkolivegreen;
+	height: 350px;
+	align-items: center;
+	justify-content: center;
+}
+.flex-container8 div{
+	width: 250px;
+	height: 250px;
+	align-content: center;
+}
